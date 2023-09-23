@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Familjen+Grotesk:wght@400;600;700&family=Hanken+Grotesk:ital,wght@1,800&family=Manrope:wght@200&family=Nanum+Myeongjo&family=Playfair+Display&family=Roboto:wght@400;700&display=swap');
+
+:root{
+--Dark-Slate-Grey: hsl(234, 29%, 20%);
+--Charcoal-Grey: hsl(235, 18%, 26%);
+--Grey: hsl(231, 7%, 60%);
+--White: hsl(0, 0%, 100%);
+--Tomato: hsl(4, 100%, 67%)
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--Dark-Slate-Grey);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: var(--White);
+    border-radius: 15px;
+    width: 760px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* form */
+form{
+    width: 60%;
+    padding: 40px 20px;
+}
+
+form h1{
+    font-size: 45px;
+}
+
+form p{
+    margin: 15px 0;
+}
+
+form ul{
+    padding-left: 25px;
+    margin-bottom: 30px;
+    list-style-image: url(./assets/images/icon-list.svg);
+}
+
+form ul li{
+    margin: 8px 0;
+}
+
+/* email-field */
+.email-field label{
+    display: block;
+}
+
+.email-field input{
+    width: 90%;
+    height: 45px;
+    border: 1px solid var(--Grey);
+    outline: none;
+    margin: 15px 0;
+    padding-left: 20px;
+    border-radius: 7px;
+}
+
+.email-field button{
+    width: 90%;
+    font-size: 15px;
+    height: 45px;
+    background-color: var(--Dark-Slate-Grey);
+    color: var(--White);
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+/* photo-container */
+.photo-container{
+    width: 40%;
+}
+
+.photo-container img{
+    width: 100%;
+    height: 100%;
+}
