@@ -108,10 +108,6 @@ li {
     box-shadow: none;
 }
 
-.btn:focus {
-    outline: 0.2rem dotted var(--dark-slate-grey);
-}
-
 /* sign-up card */
 .sign-up-img {
     width: 100%;
@@ -157,7 +153,7 @@ li {
 }
 
 .sign-up-form input:focus {
-    outline: 0.2rem dotted var(--dark-slate-grey);
+    border: 1px solid var(--dark-slate-grey);
 }
 
 .sign-up-form .error-message {
